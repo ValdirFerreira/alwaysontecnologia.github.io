@@ -1,40 +1,41 @@
-# 🚀 Always On Tecnologia
+# Always On Tecnologia
 
-Site institucional da Always On Tecnologia, empresa especializada em desenvolvimento de sistemas web, sites profissionais, aplicativos mobile e integrações corporativas.
+Site institucional da **Always On Tecnologia**, empresa especializada em criação de sistemas web, sites profissionais e aplicativos mobile.
 
-## 🌐 Sobre
+O objetivo do site é apresentar os serviços da empresa e facilitar o contato de clientes diretamente pelo WhatsApp.
 
-A Always On Tecnologia atua no desenvolvimento de soluções digitais sob medida para empresas que buscam modernizar processos, aumentar produtividade e acelerar resultados através da tecnologia.
+---
 
-### Nossos serviços
+## Preview do Site
+
+O projeto contém uma página completa com:
+
+- Página inicial com chamada principal
+- Botão para contato via WhatsApp
+- Seção de serviços
+- Seção de soluções digitais
+- Processo de trabalho
+- Formulário que envia mensagem para o WhatsApp
+- Layout responsivo para celular, tablet e desktop
+- Imagens e ícones em SVG
+
+---
+
+## Serviços apresentados
 
 - Desenvolvimento de Sistemas Web
-- Sites Institucionais e Landing Pages
-- Aplicativos Mobile Android e iOS
+- Criação de Sites Profissionais
+- Desenvolvimento de Aplicativos Mobile
 - APIs e Integrações
-- Dashboards e Business Intelligence
-- Consultoria em Arquitetura de Software
-- Modernização de Sistemas Legados
-- Hospedagem e Suporte Técnico
+- Dashboards e Portais
+- Soluções digitais sob medida
 
 ---
 
-## 🛠️ Tecnologias
-
-Este projeto foi desenvolvido utilizando:
-
-- HTML5
-- CSS3
-- JavaScript
-- SVG para ilustrações e ícones
-- Layout Responsivo
-
----
-
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```text
-/
+always-on-tecnologia-site/
 ├── index.html
 ├── styles.css
 ├── script.js
@@ -51,18 +52,24 @@ Este projeto foi desenvolvido utilizando:
 
 ---
 
-## ⚙️ Configuração do WhatsApp
+## Configurar WhatsApp
 
 Abra o arquivo:
 
-```js
+```text
 script.js
 ```
 
-Altere a constante:
+Altere esta linha:
 
 ```js
 const WHATSAPP_NUMBER = "5511999999999";
+```
+
+Coloque o número real da empresa no formato:
+
+```text
+55 + DDD + número
 ```
 
 Exemplo:
@@ -71,58 +78,90 @@ Exemplo:
 const WHATSAPP_NUMBER = "5511987654321";
 ```
 
-Formato:
+---
+
+## Como rodar localmente
+
+Basta abrir o arquivo:
 
 ```text
-55 + DDD + Número
+index.html
 ```
 
----
+no navegador.
 
-## 🚀 Publicação
-
-O projeto pode ser hospedado gratuitamente em:
-
-- Vercel
-- Netlify
-- GitHub Pages
-
-### Publicando na Vercel
-
-1. Faça fork ou clone deste repositório.
-2. Crie uma conta na Vercel.
-3. Importe o projeto do GitHub.
-4. Clique em Deploy.
-5. Seu site estará online em poucos minutos.
+Também pode usar a extensão **Live Server** no VS Code.
 
 ---
 
-## 🌎 Domínio Personalizado
+## Como publicar gratuitamente
 
-Após registrar um domínio próprio, como:
+### Opção 1 — Vercel
+
+1. Crie uma conta em https://vercel.com
+2. Suba este projeto no GitHub
+3. Importe o repositório na Vercel
+4. Clique em **Deploy**
+5. O site será publicado gratuitamente
+
+---
+
+### Opção 2 — Netlify
+
+1. Crie uma conta em https://www.netlify.com
+2. Clique em **Add new site**
+3. Envie os arquivos do projeto
+4. Publique gratuitamente
+
+---
+
+### Opção 3 — GitHub Pages
+
+1. Crie um repositório no GitHub
+2. Envie os arquivos do projeto
+3. Vá em **Settings**
+4. Acesse **Pages**
+5. Selecione a branch principal
+6. Salve
+
+---
+
+## Domínio personalizado
+
+Depois de registrar o domínio:
 
 ```text
 alwaysontecnologia.com.br
 ```
 
-Basta configurá-lo no painel da hospedagem.
+você pode apontar ele para:
+
+- Vercel
+- Netlify
+- GitHub Pages
 
 ---
 
-## 📱 Contato
+## Contato
 
-### Always On Tecnologia
+**Always On Tecnologia**
 
-Desenvolvimento de Sistemas Web, Sites e Aplicativos Mobile.
+Sistemas Web • Sites • Aplicativos Mobile
 
 WhatsApp:
+
+```text
 https://wa.me/5511999999999
+```
 
 E-mail:
+
+```text
 contato@alwaysontecnologia.com.br
+```
 
 ---
 
-## © Licença
+## Licença
 
-© Always On Tecnologia - Todos os direitos reservados.
+© Always On Tecnologia. Todos os direitos reservados.
